@@ -10,12 +10,12 @@ https://mighty-tundra-81441.herokuapp.com/
 
 My application’s folder structure follows Model-View-Controller structure.  It uses express-handlebars package to use Handlebars.js for your Views, use the MySQL2 and Sequelize packages to connect to a MySQL database for your Models, and created an Express.js API for your Controllers. Also uses dotenv package to use environment variables, the bcrypt package to hash passwords, and the express-session and connect-session-sequelize packages to add authentication.
 
-##User Story
+## User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
-##Acceptance Criteria
+## Acceptance Criteria
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
