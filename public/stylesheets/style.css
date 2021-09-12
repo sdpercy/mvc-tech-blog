@@ -4,8 +4,12 @@
     
 }
 
+
 .top-bar {
     background-color: var(--primary-color);
+}
+.top-bar-right{
+  float: right;
 }
 
 .menu-text{
@@ -14,9 +18,27 @@
 }
 
 a {
-    background-color:var(--primary-color);
-    color: var(--secondary-color);
+    background-color:var(--secondary-color);  
+    color: var(--primary-color);
 }
+
+span {
+  color: var(--primary-color);
+  background-color:var(--secondary-color);
+}
+
+ol, li {list-style-type: none;}
+
+.post{
+  border-color: var(--primary-color);
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
 
 .translucent-form-overlay {
     max-width: 550px;
@@ -50,6 +72,11 @@ a {
   .translucent-form-overlay input::placeholder {
     color: #8a8a8a;
   }
+
+  .button.primary {
+    background: var(--primary-color);
+    color: #fff;
+}
   
   .column, .columns {
     width: 100%;
@@ -64,4 +91,43 @@ a {
     margin-left: 0;
     margin-right: 0;
 }
+
+.edit-link {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.new-post-form {
   
+  width: 600px;
+  
+}
+
+h4 {
+  color:var(--primary-color);
+  width: 600px;
+}
+  
+#posts{
+  width: 80%;
+  
+  
+  
+}
+
+.column:last-child, .columns:last-child {
+  float: left;
+}
+
+div.title {
+  
+  background-color: var(--secondary-color);
+}
+
+.post-list {
+  width: 80%;
+  margin:300px;
+}
+
+.content {
+  margin-top:30px
+}
