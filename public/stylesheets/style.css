@@ -1,0 +1,67 @@
+:root{
+    --primary-color:rgba(55, 74, 185, 0.8);
+    --secondary-color:aliceblue;
+    
+}
+
+.top-bar {
+    background-color: var(--primary-color);
+}
+
+.menu-text{
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+}
+
+a {
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.translucent-form-overlay {
+    max-width: 550px;
+    /*width: 100%;*/
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: var(--secondary-color);
+    margin: 60px;
+  }
+  
+  .translucent-form-overlay .columns.row {
+    display: block;
+  }
+  
+  .translucent-form-overlay h3, .translucent-form-overlay label {
+    color: #fefefe;
+  }
+  
+  .translucent-form-overlay input, .translucent-form-overlay select {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::-webkit-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input:-ms-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::placeholder {
+    color: #8a8a8a;
+  }
+  
+  .column, .columns {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+  .button.expanded {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+  
